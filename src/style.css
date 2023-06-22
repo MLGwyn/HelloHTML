@@ -7,4 +7,48 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  padding: 25px;
+}
+
+li:hover {
+  font-size: 2rem;
+  text-decoration: line-through;
+  transition: 0s;
+  padding-left: 10rem;
+  font-family: cursive;
+  color: purple;
+  list-style: none;
+}
+h1 {
+  font-family: cursive;
+  padding: 10px;
+  background-color: purple;
+  background: no-repeat 99% center, linear-gradient(to bottom, purple, plum 50%);
+  background-size: 50%;
+  margin: 10px auto;
+  line-height: 3;
+  background-color: #f66;
+  text-align: center;
+  border: 10px solid black;
+  background-clip: padding-box;
+}
+
+a::after {
+  content: CLICK ME!;
+  color: darkblue;
+  font-family: cursive;
+}
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+  border-radius: 50%;
+}
+a[href$='com'] {
+  font-size: 2.5rem;
 }
